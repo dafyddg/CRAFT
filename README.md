@@ -9,10 +9,9 @@ HTML GUI Output:
 Frame containing mainly graphs and statistical analyses and comparison of speech signal transformations.
 
 Methods:
-1. CRAFT: Fundamental frequency (F0, 'pitch') estimation algorithms and parameters.
-2. CR0FT: Comparison of standard F0 estimation parameters RAPT and Praat with S0FT, a simple parametrised F0 tracker.
-3. Amplitude and Frequency modulation demo.
-4. S0FT: FM demodulation with FFT peak, zero-crossing and peak-picking algorithms and combinations.
-5. SoundOps: Demos of Butterworth filters and Fourier and Hilbert transformations.
-Commit change:
-README.md extended with GUI and method details.
+1. CRAFT: Fundamental frequency (F0, 'pitch') estimation algorithms and parameters. Branched.
+2. CR0FT: Comparison of standard F0 estimation parameters RAPT and Praat with S0FT, a simple parametrised F0 tracker. Not included at this time.
+3. Amplitude and Frequency modulation demo. Not included at this time.
+4. S0FT: FM demodulation with FFT peak, zero-crossing and peak-picking algorithms and combinations. Not included at this time.
+5. SoundOps: Demos of Butterworth filters and Fourier and Hilbert transforms. Not included at this time.
+Commit changes:
