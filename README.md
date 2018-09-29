@@ -8,10 +8,8 @@ HTML GUI Input selections:
 HTML GUI Output:
 Frame containing mainly graphs and statistical analyses and comparison of speech signal transformations.
 
+CGI environment:
+This implementation uses the lighttpd server
+
 Methods:
-1. CRAFT: Fundamental frequency (F0, 'pitch') estimation algorithms and parameters. Branched.
-2. CR0FT: Comparison of standard F0 estimation parameters RAPT and Praat with S0FT, a simple parametrised F0 tracker. Not included at this time.
-3. Amplitude and Frequency modulation demo. Not included at this time.
-4. S0FT: FM demodulation with FFT peak, zero-crossing and peak-picking algorithms and combinations. Not included at this time.
-5. SoundOps: Demos of Butterworth filters and Fourier and Hilbert transforms. Not included at this time.
-Commit changes:
+CRAFT: Fundamental frequency (F0, 'pitch') estimation algorithms and parameters. Branched.
