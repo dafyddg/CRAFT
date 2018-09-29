@@ -14,3 +14,5 @@ Methods:
 3. Amplitude and Frequency modulation demo.
 4. S0FT: FM demodulation with FFT peak, zero-crossing and peak-picking algorithms and combinations.
 5. SoundOps: Demos of Butterworth filters and Fourier and Hilbert transformations.
+Commit change:
+README.md extended with GUI and method details.
