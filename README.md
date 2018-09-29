@@ -6,10 +6,15 @@ HTML GUI Input selections:
 2. Parameter selection (algorithm choice, parameter choice, figure dimensions)
 
 HTML GUI Output:
-Frame containing mainly graphs and statistical analyses and comparison of speech signal transformations.
+Graphs, statistical analyses, comparison of speech signal transformations.
 
-CGI environment:
-This implementation uses the lighttpd server
+In order to use CRAFT, a CGI capable web server must be installed and the file paths must be defined appropriately for the server environment. The server used in CRAFT development is Lighty (httpd):
+- https://www.lighttpd.net/
+- https://en.wikipedia.org/wiki/Lighttpd
 
-Methods:
-CRAFT: Fundamental frequency (F0, 'pitch') estimation algorithms and parameters. Branched.
+In order to use the RAPT and Praat F0 estimation options, esps and get_f0 and Praat must be installed:
+- ESPS: http://www.phon.ox.ac.uk/releases (Debian .deb file for Ubuntu 12.04, ok also for 16.04)
+- Praat: http://www.fon.hum.uva.nl/praat/ (various operating systems)
+
+Method:
+CRAFT: Fundamental frequency (F0, 'pitch') estimation algorithms and parameters.
