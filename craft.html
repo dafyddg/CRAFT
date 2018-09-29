@@ -1,0 +1,431 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<!-- craft.html D. Gibbon -->
+<!-- Input to CGI. For further information see readme file and headers of code files. -->
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=us-ascii">
+
+  <title>CRAFT - Construction and Reconstruction of Amplitude and
+  Frequency Tracks. D. Gibbon</title>
+  <style type="text/css">
+  tdp {font-size:10pt}
+    td {font-size:10pt}
+    p {font-size:10pt}
+    li {font-size:10pt}
+    small {font-size:8pt}
+    big {font-size:18pt;font-weight:bold}
+    verybig {font-size:24pt;font-weight:bold}
+  </style>
+</head>
+
+<body bgcolor="lightblue">
+  <p align="center"><font size="+1"><b>CRAFT - Construction and
+  Reconstruction of Amplitude and Frequency Tracks</b></font></p>
+
+  <!-- Beginning of form -->
+  <!-- <form> tag must NOT be in table for Chrome and some other browsers -->
+
+  <form method="post" action="/cgi-bin/CRAFT-CGI/craft-cgi.py">
+
+<!-- =================================================================== -->
+<font size=-1>
+<!-- =================================================================== -->
+
+      <table align="center" bgcolor="lightblue"><tr align=center valign="top"><td rowspan="2" bgcolor="lightgreen">
+
+<!-- =================================================================== -->
+
+	 		<!-- Data selection table -->
+       <table bgcolor="lightgreen" cellpadding="0" cellspacing="0">
+       <tr>
+       <td>
+          <!-- Column 1 -->
+          <b>Metadata</b><br>
+          <textarea name="metadata" rows="3" cols="35">
+S0FT (Simple F0 Tracking) V02:
+Visualisation of factors in F0 extra algorithms.
+</textarea>
+          </td>
+
+         </tr><tr>
+
+         <td ><b>Data</b><br>
+
+          <select name="filebase">
+            <option selected value="jiayan-5s">
+              North Wind &amp; Sun (Mandarin, jiayan)
+            </option>
+
+            <option value="liangjj-3.8s">
+              North Wind &amp; Sun (Mandarin, liangjj)
+            </option>
+
+            <option value="liupeng-4s">
+              North Wind &amp; Sun (Mandarin, liupeng)
+            </option>
+
+            <option value="liuqp-6s">
+              North Wind &amp; Sun (Mandarin, liuqp)
+            </option>
+
+            <option value="liyang-4s">
+              North Wind &amp; Sun (Mandarin, liyang)
+            </option>
+
+            <option value="shjj-4.6s">
+              North Wind &amp; Sun (Mandarin, shjj)
+            </option>
+
+            <option value="tangzd-6s">
+              North Wind &amp; Sun (Mandarin, tangzd)
+            </option>
+
+            <option value="wangwei-5s">
+              North Wind &amp; Sun (Mandarin, wangwei)
+            </option>
+
+            <option value="wuxi-5s">
+              North Wind &amp; Sun (Mandarin, wuxi)
+            </option>
+
+            <option value="xn-3s">
+              North Wind &amp; Sun (Mandarin, xn)
+            </option>
+
+            <option value="Abercrombie-short16k">
+              North Wind &amp; Sun (English RP, Abercrombie)
+            </option>
+
+            <option value="sine-200x5x6">
+              Modulated 200x5 sinusoid calibration signal
+            </option>
+
+            <option value="08-Male-Black-handed-Gibbon-cut">
+              08-Male-Primate
+            </option>
+
+            <option value="Anyi_SA-Anouman">
+              Anyi_SA-Anouman
+            </option>
+
+            <option value="English_A0101B">
+              English_A0101B
+            </option>
+
+            <option value="English_A0102B">
+              English_A0102B
+            </option>
+
+            <option value="English_chantedcontours">
+              English_chantedcontours
+            </option>
+
+            <option value="English_DG-import-incite-mono">
+              English_DG-import-incite-mono
+            </option>
+
+            <option value="English_DG-incite-mono">
+              English_DG-incite-mono
+            </option>
+
+            <option value="English_DG-import-mono">
+              English_DG-import-mono
+            </option>
+
+            <option value="English_DG_howareyou">
+              English_DG_howareyou
+            </option>
+
+            <option value="English_DG_peterpipermarymiller">
+              English_DG_peterpipermarymiller
+            </option>
+
+            <option value="English_DG_willymarriedmary">
+              English_DG_willymarriedmary
+            </option>
+
+            <option value="English_J0104G-Argentina-Aquestion">
+              English_J0104G-Argentina-Aquestion
+            </option>
+
+            <option value="English_J0104G-Argentina-Banswer">
+              English_J0104G-Argentina-Banswer
+            </option>
+
+            <option value="English_J0104G-Argentina">
+              English_J0104G-Argentina
+            </option>
+
+            <option value="English_J0104G">
+              English_J0104G
+            </option>
+
+            <option value="Mandarin_ChinesePods-4ma">
+              Mandarin_ChinesePods-4ma
+            </option>
+
+            <option value="Mandarin_creaky4ma">
+              Mandarin_creaky4ma
+            </option>
+
+            <option value="Mandarin_liupeng">
+              Mandarin_liupeng
+            </option>
+
+            <option value="Mandarin_wuxi">
+              Mandarin_wuxi
+            </option>
+
+            <option value="Tem_Tchagbale_18a">
+              Tem_Tchagbale_18a
+            </option>
+
+            <option value="Tem_Tchagbale_18b">
+              Tem_Tchagbale_18b
+            </option>
+
+            <option value="Tem_Tchagbale_18c">
+              Tem_Tchagbale_18c
+            </option>
+
+            <option value="Tem_Tchagbale_18d">
+              Tem_Tchagbale_18d
+            </option>
+
+            <option value="Thadou-Haokip-Block04-low">
+              Thadou-Haokip-Block04-low
+            </option>
+
+
+          </select>
+          </td></tr><tr><td>
+         <b>If stereo, select channel(s):</b>
+          <select name="channels">
+            <option selected value="left">left</option>
+            <option value="left">right</option>
+            <option value="left">merged</option>
+          </select>
+        </td></tr>
+        <tr><td bgcolor="yellow">
+         <b>Process (may take >>20s):</b><br>
+          <input value="DEMODULATE" type="submit">
+          <input value= " Reset Defaults" type="reset">
+          </td>
+
+</tr></table></td>
+<!-- =================================================================================-->
+
+<td align="center" valign="middle" bgcolor="red">
+
+          <table bgcolor="pink" cellspacing="5">
+
+          <tr valign="top" align="center">
+
+         <td rowspan="2"><b>Shared:</b></td>
+
+          <td><b>F0&nbsp;algorithm</b><br><select name="algorithm">
+
+          <option selected value="S0FT">
+            S0FT
+          </option>
+          
+          <option value="RAPT">
+            RAPT
+          </option>
+
+          <option value="PyRapt">
+            PyRapt
+          </option>
+
+          <option value="PraatDefault">
+            Praat Default
+          </option>
+
+          <option value="PraatAC">
+            Praat AC
+          </option>
+          
+          <option value="PraatCC">
+            Praat CC
+          </option>
+ 
+     </select></td>
+
+              <td>Audio<sub>start</sub><br>
+              <input type="text" name="secstart" value="0" size=
+              "2">s</td>
+
+              <td>Audio<sub>length</sub>s<br>
+              <input type="text" name="seclen" value="3" size=
+              "2">s</td>
+
+
+              <td>F0<sub>min</sub><br>
+              <input type="text" name="f0min" value="120" size=
+              "2">Hz</td>
+
+              <td>F0<sub>max</sub><br>
+              <input type="text" name="f0max" value="400" size=
+              "2">Hz</td>
+
+              <td>F0<sub>frame</sub><br>
+              <input type="text" name="framerate" value="0.01"
+              size="2">s</td>
+
+              <td>MedFilt<sub>wav</sub><br>
+              <input type="text" name="wavemedianfilt" value="21"
+              size="2"></td>
+
+              <td>Global Poly<br>
+              <input type="text" name="polydegreeglobal" value="21" size=
+              "2">&deg;</td>
+
+              <td>Local Poly<br>
+              <input type="text" name="polydegreelocal" value="3" size=
+              "2">&deg;</td>
+
+              <td>Spectrum Poly<br>
+              <input type="text" name="polydegreespectrum" value="9" size=
+              "2">&deg;</td>
+              
+              <td>F0 switch<br><select name=f0switch>
+              <option selected value='on'>on</option>
+              <option value='off'>off</option>
+              </select>
+
+              </tr><tr align="center">
+
+              <td>Spect<sub>min</sub>Hz<br>
+              <input type="text" name="spectmin" value="0" size=
+              "2"></td>
+
+              <td>Spect<sub>max</sub>Hz<br>
+              <input type="text" name="spectmax" value="500" size=
+              "2"></td>
+
+              <td>Spect<sub>win</sub>s<br>
+              <input type="text" name="spectwinfactor" value="0.01" size=
+              "2"></td>
+
+              <td>Hilbert<br>
+              <input type="text" name="hilbertflag" value="n.a." size="2"></td>
+
+              <td>AEMS<sub>min</sub>Hz<br>
+              <input type="text" name="aemshzmin" value="0" size="2"></td>
+
+              <td>AEMS<sub>max</sub>Hz<br>
+              <input type="text" name="aemshzmax" value="20" size="2"></td>
+
+              <td>Diffspect<sub>AM</sub><sup><i>n</i></sup><br>
+              <input type="text" name="amdiffspectpower" value="3" size=
+              "2"></td>
+
+              <td>Diffspect<sub>FM</sub><sup>n</sup><br>
+              <input type="text" name="fmdiffspectpower" value="3" size=
+              "2"></td>
+
+              <td>Fig<sub>w</sub><br>
+              <input type="text" name="figwidth" value="8" size=
+              "2"></td>
+
+              <td>Fig<sub>h</sub><br>
+              <input type="text" name="figheight" value="6.5" size=
+              "2"></td>
+
+             </tr></table>
+<!-- =================================================================================-->
+
+          </td></tr>
+
+
+              <tr><td align="center" bgcolor="blue">
+
+              <table bgcolor="cyan"><tr align="center" valign="top">
+
+              <td align="left"><b>S0FT</b></td>
+
+              <td align="left" valign="top" colspan="5"><b>Waveform</b></td>
+
+              <td align="left" valign="top" colspan="6"><b>F0</b></td>
+
+
+             </tr><tr>
+
+              <td><b>Voice type shortcut:</b><br>
+              <select name="voicetype">
+                <option selected value="high">
+                  higher pitch voice
+                </option>
+
+                <option value="medium">
+                  medium pitch voice
+                </option>
+
+                <option value="low">
+                  lower pitch voice
+                </option>
+
+                <option value="custom">
+                  custom (italics)
+                </option>
+              </select></td>
+
+              <td>Centreclip<br>
+              <input name="centreclip" type="text" value="0.1"
+              size="2"></td>
+
+              <td>Highpass<br>
+              &gt;<input name="cutoffhi" type="text" value="150" size=
+              "2">Hz</td>
+
+              <td>Highpass<br>
+              <input name="orderhi" type="text" value="3" size=
+              "2">&deg;</td>
+
+              <td>Lowpass<br>
+              &lt;<input name="cutofflo" type="text" value="250" size=
+              "2">Hz</td>
+
+              <td>Lowpass<br>
+              <input name="orderlo" type="text" value="5" size=
+              "2">&deg;</td>
+
+              <td>FFT<br>
+              <input type="checkbox" name="fft" value="on" checked
+              ></td>
+
+              <td>0xing<br>
+              <input type="checkbox" name="zerox" value="on"
+              checked></td>
+
+              <td>Pkpick<br>
+              <input type="checkbox" name="peaks" value="on"></td>
+
+              <td>MedFilt<br>
+              <input name="f0medianfilt" type="text" value="5" size=
+              "2"></td>
+
+              <td>Clip<br>
+              &gt;<input name="f0clipmin" type="text" value="120" size=
+              "2">Hz</td>
+
+              <td>Clip<br>
+              &lt;<input name="f0clipmax" type="text" value="350" size=
+              "2">Hz</td>
+
+              </tr></table>
+
+<!-- =================================================================================-->
+
+</td></tr></table>
+
+</font>
+
+</form>
+  
+<font size="-3"><i>Created:</i> <i>We 12 Sep 15:00:00 CEST 2018
+</i></font>
+</body>
+</html>
