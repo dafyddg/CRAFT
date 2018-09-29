@@ -6,13 +6,15 @@ HTML GUI Input selections:
 2. Parameter selection (algorithm choice, parameter choice, figure dimensions)
 
 HTML GUI Output:
-Frame containing mainly graphs and statistical analyses and comparison of speech signal transformations.
+Graphs, statistical analyses, comparison of speech signal transformations.
 
-Methods:
-1. CRAFT: Fundamental frequency (F0, 'pitch') estimation algorithms and parameters.
-2. CR0FT: Comparison of standard F0 estimation parameters RAPT and Praat with S0FT, a simple parametrised F0 tracker.
-3. Amplitude and Frequency modulation demo.
-4. S0FT: FM demodulation with FFT peak, zero-crossing and peak-picking algorithms and combinations.
-5. SoundOps: Demos of Butterworth filters and Fourier and Hilbert transformations.
-Commit change:
-README.md extended with GUI and method details.
+In order to use CRAFT, a CGI capable web server must be installed and the file paths must be defined appropriately for the server environment. The server used in CRAFT development is Lighty (httpd):
+- https://www.lighttpd.net/
+- https://en.wikipedia.org/wiki/Lighttpd
+
+In order to use the RAPT and Praat F0 estimation options, esps and get_f0 and Praat must be installed:
+- ESPS: http://www.phon.ox.ac.uk/releases (Debian .deb file for Ubuntu 12.04, ok also for 16.04)
+- Praat: http://www.fon.hum.uva.nl/praat/ (various operating systems)
+
+Method:
+CRAFT: Fundamental frequency (F0, 'pitch') estimation algorithms and parameters.
