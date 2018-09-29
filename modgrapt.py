@@ -1,4 +1,4 @@
-# modgf0.py
+# modgrapt.py
 
 import os
 import numpy as np
